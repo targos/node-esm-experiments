@@ -1,3 +1,10 @@
 {
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "jest": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^27.0.0-next.2"
+  }
 }
